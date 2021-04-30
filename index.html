@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head>
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+    <script src="lib/p5.play.js"></script>
+    <script src="lib/matter.js"></script>
+    <script src="lib/personalLib.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBx8t9ByRZlKTsrVmLlKajUsB_wrOeAkoQ",
+      authDomain: "the-broom-stick.firebaseapp.com",
+      databaseURL: "https://the-broom-stick-default-rtdb.firebaseio.com",
+      projectId: "the-broom-stick",
+      storageBucket: "the-broom-stick.appspot.com",
+      messagingSenderId: "236501408338",
+      appId: "1:236501408338:web:2bb27668e4457e23809d8b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+  </head>
+  <body>
+      <center><h1 style="font-size:45px">The Broom Stick</h1></center>
+      <script src="sketch.js"></script>
+  
+
+</body></html>
